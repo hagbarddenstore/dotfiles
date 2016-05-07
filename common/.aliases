@@ -1,0 +1,13 @@
+# Use unit suffixes, list all entries except . and .., long listing.
+alias ls="ls -hAlGp"
+
+# Create all directories in path
+alias mkdir="mkdir -p"
+
+# Colorize grep output
+alias grep="grep --color=always"
+
+# Directory navigation shortcuts
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
