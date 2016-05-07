@@ -1,0 +1,5 @@
+[user]
+	name = Kim Johansson
+	email = kim@kumiko.se
+[core]
+	excludesfile = /Users/hagbard/.gitignore_global
