@@ -3,3 +3,5 @@
 	email = kim@kumiko.se
 [core]
 	excludesfile = /Users/hagbard/.gitignore_global
+[push]
+	default = simple
