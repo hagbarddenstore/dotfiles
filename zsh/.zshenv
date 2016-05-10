@@ -26,6 +26,10 @@ fi
 export GOPATH=$HOME/Projects/go
 export GOROOT=/usr/local/go
 
+if [ -d $GOROOT/bin ]; then
+  export PATH="$PATH:$GOROOT/bin"
+fi
+
 if [ -d $GOPATH/bin ]; then
 	export PATH="$PATH:$GOPATH/bin"
 fi
